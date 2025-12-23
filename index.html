@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKYMOLDER</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<main>
+    <header class="header">
+        <h1 class="logo">
+        <span class="letter-container">
+            <span class="letter">S</span>
+            <span class="letter">K</span>
+            <span class="letter">Y</span>
+            <span class="letter">M</span>
+            <span class="letter">O</span>
+            <span class="letter">L</span>
+            <span class="letter">D</span>
+            <span class="letter">E</span>
+            <span class="letter">R</span>
+        </span>
+        </h1>
+    </header>
+
+    <section class="top-section-wrapper">
+        <section class="top-section">
+
+            <div class="sliders-box">
+                <div class="slider">
+                    <div class="slider-label">40%</div>
+                    <div class="slider-track">
+                        <div class="slider-thumb thumb1"></div>
+                    </div>
+                </div>
+
+                <div class="slider">
+                    <div class="slider-label">25%</div>
+                    <div class="slider-track">
+                        <div class="slider-thumb thumb2"></div>
+                    </div>
+                </div>
+
+                <div class="slider">
+                    <div class="slider-label">100%</div>
+                    <div class="slider-track">
+                        <div class="slider-thumb thumb3"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="circles-box">
+
+                <div class="circle c1"></div>
+                <div class="circle c2"></div>
+                <div class="circle c3"></div>
+                <div class="circle c4"></div>
+
+                <img src="img/cloud.png" alt="cloud" class="cloud" />
+
+                <svg class="svg-layer" width="835" height="835" viewBox="0 0 835 835">
+
+                    <defs>
+                        <path id="outerTop"
+                              d="
+                            M 17.5 417.5
+                            A 400 400 0 1 0 817.5 417.5
+                          " />
+
+
+                        <path id="outerBottom"
+                              d="M417.5,817.5
+                 A400,400 0 1 0 417.4,817.5" />
+
+                        <!-- THIRD -->
+                        <path id="thirdTop"
+                              d="M417.5,97.5
+                 A320,320 0 1 1 417.4,97.5" />
+
+                        <path id="thirdBottom"
+                              d="M417.5,737.5
+                 A320,320 0 1 0 417.4,737.5" />
+
+                        <!-- INNER -->
+                        <path id="innerTop"
+                              d="M417.5,282.5
+                 A135,135 0 1 1 417.4,282.5" />
+
+                        <path id="innerBottom"
+                              d="M417.5,552.5
+                 A135,135 0 1 0 417.4,552.5" />
+
+                        <path id="outerBottomInverted"
+                              d="M417.4,817.5
+         A400,400 0 1 1 417.5,817.5" />
+
+
+                        <path id="innerLabelCircle"
+                              d="
+        M417.5 227.5
+        A190 190 0 1 1 417.5 607.5
+        A190 190 0 1 1 417.5 227.5
+      " />
+
+
+                        <path id="innerLabelCircleReverse"
+                              d="M417.5 227.5
+         A190 190 0 1 0 417.5 607.5
+         A190 190 0 1 0 417.5 227.5" />
+
+                        <path id="thirdBottomReverse"
+                              d="M417.5,737.5
+         A320,320 0 1 0 417.4,737.5" />
+                    </defs>
+
+
+                    <text class="svgtext">
+                        <textPath href="#outerTop" startOffset="50%" text-anchor="middle">
+                            <tspan dy="-28">водяной пар</tspan>
+                        </textPath>
+                    </text>
+
+                    <text class="svgtext">
+                        <textPath href="#outerBottom" startOffset="35%">
+                            <tspan dy="-28">25%</tspan>
+                        </textPath>
+                    </text>
+
+                    <text class="svgtext svgtext-center">
+                        <textPath href="#thirdBottomReverse" startOffset="40%">
+                            <tspan dy="-28">металлическая пыль</tspan>
+                        </textPath>
+                    </text>
+
+                    <text class="svgtext svgtext-40">
+                        <textPath href="#thirdBottom" startOffset="90%" text-anchor="middle">
+                            <tspan dy="-28">40%</tspan>
+                        </textPath>
+                    </text>
+
+                    <text class="svgtext svgtext-center">
+                        <textPath href="#innerLabelCircleReverse" startOffset="20%">
+                            100%
+                        </textPath>
+                    </text>
+
+                    <text class="svgtext svgtext-center">
+                        <textPath href="#innerLabelCircleReverse" startOffset="60%">
+                            лёд
+                        </textPath>
+                    </text>
+                </svg>
+            </div>
+        </section>
+    </section>
+
+    <div class="line-solid"></div>
+    <div class="line-dashed"></div>
+
+    <section class="shape-section">
+        <div class="shape-title-wrapper">
+            <h2 class="shape-title">ВЫБОР ФОРМЫ И ТЕКСТУРЫ</h2>
+        </div>
+
+        <div class="shape-line shape-line-top"></div>
+
+        <div class="cloud-marquee">
+            <div class="cloud-marquee-inner"></div>
+        </div>
+
+        <div class="shape-line shape-line-bottom"></div>
+
+        <div class="texture-row">
+
+            <div class="texture-item animate">
+                <img src="/img/element_1_frame1.png" class="texture-frame frame1">
+                <img src="/img/element_1_frame2.png" class="texture-frame frame2">
+                <img src="/img/element_1_frame3.png" class="texture-frame frame3">
+                <span class="texture-label">ЖЕСТКИЙ</span>
+            </div>
+
+            <div class="texture-item animate">
+                <img src="/img/element_2_frame1.png" class="texture-frame frame1">
+                <img src="/img/element_2_frame2.png" class="texture-frame frame2">
+                <img src="/img/element_2_frame3.png" class="texture-frame frame3">
+                <span class="texture-label">ГЛАДКИЙ</span>
+            </div>
+
+            <div class="texture-item animate">
+                <img src="/img/element_3_frame1.png" class="texture-frame frame1">
+                <img src="/img/element_3_frame2.png" class="texture-frame frame2">
+                <img src="/img/element_3_frame3.png" class="texture-frame frame3">
+                <span class="texture-label">ПУШИСТЫЙ</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="manufacture-section">
+        <div class="manufacture-inner">
+
+            <h2 class="manufacture-title">
+                ИЗГОТОВЛЕНИЕ
+                <span class="mf-dots">
+                <span class="mf-dot"></span>
+                <span class="mf-dot"></span>
+                <span class="mf-dot"></span>
+            </span>
+            </h2>
+
+            <div class="manufacture-layout">
+
+                <div class="manufacture-left">
+
+                    <div class="mf-frame mf-top-frame">
+
+                        <div class="mf-outer-circle">
+                            <div class="mf-inner-morph"></div>
+                        </div>
+
+                        <div class="wave-circle">
+                            <svg class="wave-svg" viewBox="0 0 240 240" preserveAspectRatio="none">
+                                <defs>
+                                    <clipPath id="circle-clip">
+                                        <circle cx="120" cy="120" r="118" />
+                                    </clipPath>
+                                </defs>
+
+                                <g clip-path="url(#circle-clip)">
+                                    <!-- ВОДА -->
+                                    <path class="wave-path wave-back"
+                                          d="M0 140
+                                         C 40 130, 80 150, 120 140
+                                         C 160 130, 200 150, 240 140
+                                         L 240 240
+                                         L 0 240 Z"/>
+
+                                                        <path class="wave-path wave-front"
+                                                              d="M0 145
+                                         C 40 135, 80 155, 120 145
+                                         C 160 135, 200 155, 240 145
+                                         L 240 240
+                                         L 0 240 Z"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                    </div>
+
+                    <div class="mf-frame mf-bottom-frame">
+                        <div class="mf-cloud-fade">
+                            <img src="/img/element_5_frame1.png" class="cf cf-1">
+                            <img src="/img/element_5_frame2.png" class="cf cf-2">
+                            <img src="/img/element_5_frame3.png" class="cf cf-3">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="manufacture-right">
+                    <div class="mf-frame mf-right-frame">
+                        <div class="mf-drawing-fade">
+                            <img src="/img/element_4_frame1.png" class="df df-1">
+                            <img src="/img/element_4_frame2.png" class="df df-2">
+                            <img src="/img/element_4_frame3.png" class="df df-3">
+                            <img src="/img/element_4_frame4.png" class="df df-4">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section">
+        <div class="footer-frame">
+            <div class="footer-clouds">
+                <div class="cloud-wrapper cloud-1-wrapper flip-y">
+                    <img src="/img/footer_1.png" class="cloud cloud-1">
+                </div>
+                <img src="/img/footer_1.png" class="cloud cloud-2">
+                <div class="cloud-wrapper cloud-3-wrapper flip-y">
+                    <img src="/img/footer_3.png" class="cloud cloud-3">
+                </div>
+                <img src="/img/footer_3.png" class="cloud cloud-4">
+                <div class="cloud-wrapper cloud-5-wrapper flip-y">
+                    <img src="/img/footer_4.png" class="cloud cloud-5">
+                </div>
+                <img src="/img/footer_4.png" class="cloud cloud-6">
+
+                <div class="fixed-cloud-box">
+                    <img src="/img/footer_5.png" class="fixed-cloud">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-grid">
+            <div class="footer-author">
+                <div>Шипилова А.Д.</div>
+                <div>2 группа</div>
+            </div>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
